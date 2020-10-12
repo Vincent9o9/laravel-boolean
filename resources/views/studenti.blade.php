@@ -7,8 +7,9 @@
     <img src="{{ $student['img']}}" class="card-img-top" alt="{{ $student['nome']}}">
     <div class="card-body">
       <h5 class="card-title">{{ $student['nome']}}</h5>
+      <p class="card-text">{{ $student['anni']}} Anni</p>
+      <p class="card-text">Assutno da {{ $student['azienda']}}</p>
       <p class="card-text">{{ $student['descrizione']}}</p>
-      <p class="card-text"><small class="text-muted">{{ $student['anni']}}</small></p>
     </div>
       @endforeach
   </div>
