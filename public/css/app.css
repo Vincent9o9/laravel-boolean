@@ -10899,6 +10899,10 @@ a.text-dark:focus {
   }
 }
 
+header nav img {
+  height: 32px;
+}
+
 .card-img-top,
 .card-group {
   height: 300px;
