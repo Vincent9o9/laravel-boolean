@@ -3,5 +3,18 @@ header {
         img {
             height: 32px;
         }
+        ul {
+            li {
+                &:hover {
+                    text-decoration: underline;
+                }
+                a {
+                    color: black;
+                    &:hover {
+                        color: black;
+                    }
+                }
+            }
+        }
     }
 }
